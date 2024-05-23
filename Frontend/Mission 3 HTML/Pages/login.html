@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
-    <h1>Login Page</h1>
+    <div class="container">
+    <div class="title">Login</div>
     <img src="" alt="logo">
     <form action="">
-        <input name="email" type="email" placeholder="email"></input></br>
-        <input name="password" type="password" placeholder="password"></input></br>
+        <div class="userDetails">
+            <span class="email">email</span>
+            <input name="email" type="email" placeholder="email" required></input></br>
+        </div>
+        <div class="userDetails">
+            <span class="email">password</span>
+            <input name="password" type="password" placeholder="password" required></input></br>
+        </div>
         <a href="" style="color:blue" >Lupa Password?</a>
         <br>
+        <div class="buttons">
         <button>Login</button>
         <button><img src="" alt="g"> with google</button>
+        </div>
     </form>
+</div>
 </body>
 </html>
