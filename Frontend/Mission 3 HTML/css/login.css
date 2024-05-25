@@ -25,10 +25,10 @@ body{
 .title::before{
     content: '';
     position: absolute;
-    left: 85px;
+    left: 30px;
     bottom: 0;
     height: 3px;
-    width: 65px;
+    width: 175px;
     background-color:#6AD4DD ;
 }
 .logo{
