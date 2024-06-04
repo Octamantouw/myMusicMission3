@@ -3,9 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <script src="https://kit.fontawesome.com/749d2b8155.js" crossorigin="anonymous"></script></script>
 </head>
 <body>
-    
+    <header>
+        <section class="top" style="display: flex;">
+            <img class="logo" src="/image/music.jpeg" alt="logo" style="height:2em; width: 2em;">
+            <div>
+            <input class="searchBar" type="search" style="border: none; border-bottom: 1px solid black;"
+                placeholder="Search Artists/Songs/Albums">
+            </input>
+            </div>
+            <div class="topRight">
+            <img src="/image/notification.jpg" alt="notif" class="notif">
+            <img src="/image/firefox.jpeg" alt="profile" class="profile">
+            </div>
+        </section>
+    </header>
+    <main class="main">
+        <section class="container">
+        <div class="nav">
+            <div class="menu">
+                <h1><i class="fa-solid fa-bars"></i>Menu</h1>
+                <div>
+                <h2><i class="fa-solid fa-house"></i>Home</h2>
+                <h2><i class="fa-solid fa-compass"></i>Discover</h2>
+                <h2><i class="fa-solid fa-user-group"></i>Artists</h2>
+                <h2><i class="fa-solid fa-compact-disc"></i>Songs</h2>
+                <h2><i class="fa-solid fa-record-vinyl"></i>Albums</h2>
+                </div>
+            </div>
+            <div class="myMenu">
+                <h1><i class="fa-solid fa-music"></i>My Music</h1>
+                <div>
+                    <h2><i class="fa-solid fa-heart"></i>My Favorites</h2>
+                    <h2><i class="fa-solid fa-clock-rotate-left"></i>Recently played</h2>
+                </div>
+
+            </div>
+        </div>
+        <div class="myPlaylist">
+            my playlist
+        </div>
+    </section>
+    <section class="most">
+        <div class="1">
+            <div class="mostPlayedPlaylist">Most Played Playlist</div>
+            <div>a</div>
+            <div>b</div>
+            <div>c</div>
+            <div>d</div>
+        </div>
+        <div class="2">
+            <div class="mostPlayedAlbum">Most Played Album</div>
+            <div style="display: flex;">
+                <div>
+                <img src="/image/bmthalbum.jpeg" alt="">
+                </div>
+                <div>
+                    <h1>Suicide Season</h1>
+                    <h2>Bring Me The Horizon</h2>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div>
+                <img src="/image/m52album.jpg" alt="">
+                </div>
+                <div>
+                    <h1>V</h1>
+                    <h2>Maroon 5</h2>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div>
+                <img src="/image/RC2album.jpeg" alt="">
+                </div>
+                <div>
+                    <h1>What Do You Really Know?</h1>
+                    <h2>Reality Club</h2>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div>
+                <img src="/image/m53album.jpg" alt="">
+                </div>
+                <div>
+                    <h1>Red Pills Blue</h1>
+                    <h2>Maroon 5</h2>
+                </div>
+            </div>
+        </div>
+        <div class="3">
+            <div class="mostPlayedSong">Most Played Song</div>
+            <div><img src="/image/m52album.jpg" alt="">Lost Star</div>
+            <div><img src="/image/bmthalbum.jpeg" alt="">Lost</div>
+            <div><img src="/image/RC2album.jpeg" alt="">Alexandra</div>
+            <div><img src="/image/RCalbum.jpeg" alt="">Love Ephipany</div>
+        </div>
+        <div class="4">
+            <div class="frequentlyPlayedArtist">Frequently Played Artist</div>
+            <div>
+                <div>
+                <img src="/image/thescriptalbum.jpeg" alt="">
+                </div>
+                <div>
+                    <h1>The Script</h1>
+                    <h2>1M Subscriber</h2>
+                </div>
+            </div>
+            <div>
+                <div>
+                <img src="/image/m5album.jpeg" alt="">
+                </div>
+                <div>
+                    <h1>Maroon 5</h1>
+                    <h2>1M Subscriber</h2>
+                </div>
+            </div>
+            <div>
+                <div>
+                <img src="/image/RCalbum.jpeg" alt="">
+                </div>
+                <div>
+                    <h1>Reality Club</h1>
+                    <h2>1M Subscriber</h2>
+                </div>
+            </div>
+            <div>
+                <div>
+                <img src="/image/album1.jpg" alt="">
+                </div>
+                <div>
+                    <h1>Secondhand Serenade</h1>
+                    <h2>1M Subscriber</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="bottom">
+            <div class="albums">
+                <div><img src="/image/album1.jpg" style="height:3em ; width: 3em;"></div>
+                <div style="padding-left: 1em;">
+                    <h1>Secondhand Serenade</h1>
+                    <h2>Fall For You</h2>
+                </div>
+            </div>
+            <div class="controlsBtn">
+            <div class="controls">
+                <div><i class="fa-solid fa-backward-step"></i></div>
+                <div><i class="fa-solid fa-play"></i></i></div>
+                <div><i class="fa-solid fa-forward-step"></i> </div>
+            </div>
+            <div><input type="range" value="0" id="progress"></div> 
+            </div>
+            <div class="volume">
+                <i class="fa-solid fa-volume-high"></i>
+            <input type="range" value="0" id="volumebar">
+        </div>
+             
+        </div>
+    </footer>
 </body>
 </html>

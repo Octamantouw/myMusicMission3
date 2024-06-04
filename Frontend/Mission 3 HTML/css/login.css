@@ -11,8 +11,8 @@ body{
     background: #F8F6E3;
     justify-content: center;
     align-items: center;
-    padding-top: 10em;
-   
+    padding-top: 8em;
+    padding-bottom: 3px;
 }
 .title{
     display: grid;
@@ -21,6 +21,7 @@ body{
     font-size: 25px;
     font-weight: 500;
     position: relative;
+    padding-bottom:3px;
 }
 .title::before{
     content: '';
