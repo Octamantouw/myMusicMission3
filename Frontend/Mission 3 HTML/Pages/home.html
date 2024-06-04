@@ -10,7 +10,10 @@
 <body>
     <header>
         <section class="top" style="display: flex;">
-            <img class="logo" src="/image/music.jpeg" alt="logo" style="height:2em; width: 2em;">
+            <div style="display: flex;">
+                <img class="logo" src="/image/music.jpeg" alt="logo" style="height:2em; width: 2em;">
+                <h1>My Music</h1>
+            </div>
             <div>
             <input class="searchBar" type="search" style="border: none; border-bottom: 1px solid black;"
                 placeholder="Search Artists/Songs/Albums">
@@ -24,28 +27,32 @@
     </header>
     <main class="main">
         <section class="container">
-        <div class="nav">
-            <div class="menu">
-                <h1><i class="fa-solid fa-bars"></i>Menu</h1>
-                <div>
-                <h2><i class="fa-solid fa-house"></i>Home</h2>
-                <h2><i class="fa-solid fa-compass"></i>Discover</h2>
-                <h2><i class="fa-solid fa-user-group"></i>Artists</h2>
-                <h2><i class="fa-solid fa-compact-disc"></i>Songs</h2>
-                <h2><i class="fa-solid fa-record-vinyl"></i>Albums</h2>
+            <div class="nav">
+                <div class="menu">
+                    <h1><i class="fa-solid fa-bars"></i> Menu</h1>
+                    <div style="padding-top: 2px;">
+                    <h2><i class="fa-solid fa-house"></i> Home</h2>
+                    <h2><i class="fa-solid fa-compass"></i> Discover</h2>
+                    <h2><i class="fa-solid fa-user-group"></i> Artists</h2>
+                    <h2><i class="fa-solid fa-compact-disc"></i> Songs</h2>
+                    <h2><i class="fa-solid fa-record-vinyl"></i> Albums</h2>
+                    </div>
                 </div>
-            </div>
-            <div class="myMenu">
-                <h1><i class="fa-solid fa-music"></i>My Music</h1>
-                <div>
-                    <h2><i class="fa-solid fa-heart"></i>My Favorites</h2>
-                    <h2><i class="fa-solid fa-clock-rotate-left"></i>Recently played</h2>
-                </div>
+                <div class="myMenu">
+                    <h1><i class="fa-solid fa-music"></i> My Music</h1>
+                    <div style="padding-top: 2px;">
+                        <h2><i class="fa-solid fa-heart"></i> My Favorites</h2>
+                        <h2><i class="fa-solid fa-clock-rotate-left"></i> Recently played</h2>
+                    </div>
 
-            </div>
-        </div>
-        <div class="myPlaylist">
-            my playlist
+                </div>
+                <div class="myPlaylist">
+                    <h1>My Playlist</h1>
+                    <div class="choice">
+                        <button class="choiceAlbums">Albums</button>
+                        <button class="choiceArtist">Artist</button>
+                    </div>
+                </div>
         </div>
     </section>
     <section class="most">
