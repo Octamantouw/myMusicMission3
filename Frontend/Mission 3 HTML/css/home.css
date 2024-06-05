@@ -6,7 +6,7 @@
     
 }
 .body{
-    
+    background-color: #F8F6E3;
 }
 
 
@@ -17,6 +17,7 @@ header{
     padding-bottom: 1em;
     background-color: #F8F6E3;
     height: 20%;
+    border: 1px solid #7AA2E3;
 }
 .logo{
     mix-blend-mode:darken;
@@ -67,9 +68,8 @@ header{
 .main{
     display: flex;
     background-color: #97E7E1;
-    border: 1px solid black;
-    height: 45em
-    
+    border: 1px solid #7AA2E3;
+    height: 45em  
 }
 .nav{
     display: flex;
@@ -84,17 +84,17 @@ header{
     flex-direction: column;
     align-items:baseline;
     justify-content:end;
-    /* background-color: blue; */
+    /* background-color: #7AA2E3; */
     width: 45%;
     gap:2px;
 }
 .nav h1{
     color:#7AA2E3;
-    font-size: 20px;
+    font-size: 18px;
 }
 .nav h2{
     color: #15646c;
-    font-size: 16px;
+    font-size: 14px;
 }
 .choiceAlbums{
     color: #F8F6E3;
@@ -114,10 +114,8 @@ header{
 }
 
 
-
-
 .most{
-    border: 1px solid black;
+    border: 1px solid #7AA2E3;
     display: grid;
     grid-template-columns: auto auto;
     
@@ -143,12 +141,22 @@ header{
     height: 60px;
     padding-left: 1.5em;
 }
-
+.one{
+    border: 1px solid #7AA2E3;
+}
+.two{
+    border: 1px solid #7AA2E3;
+}
+.three{
+    border: 1px solid #7AA2E3;
+}
+.four{
+    border: 1px solid #7AA2E3;
+}
 
 .mostPlayedPlaylist{
     display: grid;
     grid-column: 1/2 span;
-    
 }
 .mostPlayedAlbum{
     color: #7AA2E3;
@@ -185,6 +193,7 @@ li:nth-child(odd){
     height: 4em;
     /* position:sticky; */
     bottom: 0;
+    border: 1px solid #7AA2E3;
 }
 .albums{
     padding-top: 0.5em;
@@ -202,7 +211,7 @@ li:nth-child(odd){
 .controlsBtn{
     display: flex;
     flex-direction: column;
-    /* background-color: blue; */
+    /* background-color: #7AA2E3; */
     width: 50%;
     justify-content: center;
     align-items: center;
