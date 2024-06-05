@@ -23,6 +23,9 @@ header{
     mix-blend-mode:darken;
     padding-left: 1.5em;
 }
+.visibleLogo{
+    display: flex;
+}
 .searchLogo{
     height: 1em;
     width: 1em;
@@ -288,4 +291,50 @@ li:nth-child(odd){
 
 
 
-
+@media screen and (max-width: 600px) {
+    header{
+        visibility: hidden;
+    }
+    footer{
+        visibility: hidden;
+    }
+    body{
+        visibility: hidden;
+        background-color: #F8F6E3;
+    }
+    .logo{
+        visibility: visible;
+        
+    }
+    .visibleLogo{
+        display: flex;
+        visibility: visible;
+        min-width: 30em;
+        /* min-height: 10em; */
+        color: #7AA2E3;
+        align-items: center;
+    }
+    .main{
+        .menu{
+            min-width:30em;
+            /* min-height: 10em; */
+            visibility: visible;
+            display: flex;
+            flex-wrap: wrap;
+            /* background-color: #6AD4DD; */
+            align-items: center;
+        }
+        .myMenu{
+            min-width:30em;
+            /* min-height: 10em; */
+            visibility: visible;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            /* background-color: #6AD4DD; */
+            padding-left: 0;
+            align-items: center;
+        }
+        
+    }
+  }

@@ -11,7 +11,7 @@ body{
     background: #F8F6E3;
     justify-content: center;
     align-items: center;
-    padding-top: 10em;
+    padding-top: 2em;
    
 }
 .title{
@@ -21,6 +21,7 @@ body{
     font-size: 25px;
     font-weight: 500;
     position: relative;
+    color: #7AA2E3;
 }
 .title::before{
     content: '';
@@ -44,5 +45,43 @@ body{
     width: 100%;
     border-radius: 5px;
     padding: 10px 30px;
-    padding-left: 60px;
+    padding-left: 50px;
+}
+
+span{
+    color: #7AA2E3;
+}
+.google{
+    font-size: 15px;
+    color: #F8F6E3;
+}
+.regGoogle{
+    background-color: #7AA2E3;
+    color: #F8F6E3;
+}
+
+@media screen and (max-width: 600px){
+    /* body{
+        visibility: hidden;
+    } */
+    .logo{
+        visibility: visible;
+        /* display: inline; */
+    }
+    .title::before{
+        visibility: hidden;
+    }
+    .container{
+        visibility: visible;
+        min-width: 10em;
+        display:flex;
+        flex-direction: column;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        /* gap:20px */
+    }
+
 }

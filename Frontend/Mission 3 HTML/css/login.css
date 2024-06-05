@@ -6,13 +6,16 @@
     
 }
 body{
-    display:grid;
+    display:flex;
     /* background-color:linier-gradient(180deg,#6AD4DD,#F8F6E3); */
     background: #F8F6E3;
     justify-content: center;
     align-items: center;
     padding-top: 8em;
     padding-bottom: 3px;
+}
+span{
+    color: #7AA2E3;
 }
 .title{
     display: grid;
@@ -26,7 +29,7 @@ body{
 .title::before{
     content: '';
     position: absolute;
-    left: 30px;
+    left: 60px;
     bottom: 0;
     height: 3px;
     width: 175px;
@@ -36,7 +39,7 @@ body{
     mix-blend-mode:darken;
     height: 100px;
     width: 100px;
-    padding-left: 3.5em;
+    padding-left: 5em;
     padding-top: 1em;
 }
 .container{
@@ -45,4 +48,49 @@ body{
     width: 100%;
     border-radius: 5px;
     padding: 10px 30px;
+}
+h2{
+    font-size: 15px;
+}
+.buttons{
+    padding-top:0.5em ;
+}
+.login{
+    color: #F8F6E3;
+    background-color:#7AA2E3;
+    width: 5em;
+}
+.google{
+    background-image: url(/image/Google-PNG.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-blend-mode: lighten;
+    background-size: 1em;
+    color: #F8F6E3;
+    background-color:#7AA2E3;
+    width: 13em;
+}
+
+@media screen and (max-width: 600px){
+    /* body{
+        visibility: hidden;
+    } */
+    .logo{
+        visibility: visible;
+        display: inline;
+    }
+    .title::before{
+        visibility: hidden;
+    }
+    .container{
+        visibility: visible;
+        min-width: 10em
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:20px
+    }
+
 }
